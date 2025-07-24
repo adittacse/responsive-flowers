@@ -137,4 +137,23 @@
     .latest-deals .btn-shop-now {
         font-size: 16px;
     }
+
+    .join > img {
+        height: 393px;
+    }
+
+    .join div h2 {
+        font-size: 20px;
+    }
+
+    .join div form input[type="text"] {
+        max-width: 218px;
+        height: 50px;
+    }
+
+    .join div form input[type="submit"] {
+        max-width: 103px;
+        height: 50px;
+        padding: 12px 12px;
+    }
 }
