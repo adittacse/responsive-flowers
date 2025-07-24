@@ -6,7 +6,6 @@
 .font-noto-serif {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
 }
 
@@ -30,8 +29,13 @@
     color: #111111;
 }
 
-/* banner styles */
-
+/* plants lover section styles */
+.plants-lover .trusted-badge {
+    width: 386px;
+    height: 386px;
+    margin-top: -770px;
+    margin-left: 280px;
+}
 
 /* responsive media query for mobile */
 @media screen and (max-width:576px) {
@@ -79,11 +83,31 @@
 
     .our-plants .product-container {
         grid-template-columns: repeat(2, 1fr);
-        padding-left: 14px;
-        padding-right: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .our-plants .product-container .card h4 {
         font-size: 16px;
+    }
+
+    .plants-lover {
+        flex-direction: column;
+        padding-left: 16px;
+        padding-right: 16px;
+        gap: 0px;
+    }
+
+    .plants-lover-images {
+        margin-bottom: 18px;
+    }
+
+    .plants-lover .trusted-badge {
+        display: none;
+    }
+
+    .plants-lover .plants-lover-container .plants-lover-title {
+        font-size: 24px;
+        font-weight: bold;
     }
 }
