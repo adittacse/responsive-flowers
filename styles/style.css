@@ -37,6 +37,11 @@
     margin-left: 280px;
 }
 
+/* latest deals section styles */
+.latest-deals .image-container div img {
+    /* background: linear-gradient(to top, #3204fdba, #9907facc); */
+}
+
 /* responsive media query for mobile */
 @media screen and (max-width:576px) {
     .header {
@@ -109,5 +114,27 @@
     .plants-lover .plants-lover-container .plants-lover-title {
         font-size: 24px;
         font-weight: bold;
+    }
+
+    .latest-deals {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .latest-deals .image-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .latest-deals .image-container img {
+        width: 100%;
+    }
+
+    .latest-deals .image-title {
+        font-size: 20px;
+    }
+
+    .latest-deals .btn-shop-now {
+        font-size: 16px;
     }
 }
