@@ -13,16 +13,18 @@
         <img class="w-[135px] h-[82px]" src="assets/logo.png" alt="Responsive Flowers website's logo">
         <div class="flex items-center gap-12">
             <nav class="hidden sm:flex">
-                <ol class="flex gap-12">
+                <ul class="flex gap-12">
                     <li class="font-bold text-[#252432]"><a href="#">Home</a></li>
                     <li class="text-[#8987A1]"><a href="#">Shop</a></li>
                     <li class="text-[#8987A1]"><a href="#">About Us</a></li>
-                </ol>
+                </ul>
             </nav>
             <div class="gap-2">
-                <li class="list-none">
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
-                </li>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </header>
@@ -143,7 +145,7 @@
             <div class="image-container flex gap-[28px]">
                 <div class="grid gap-y-[25px]">
                     <div class="relative rounded-[14px] overflow-hidden">
-                        <img class="" src="assets/deal-bloom.png" alt=""/>
+                        <img class="" src="assets/deal-bloom.png" alt="bloom plant"/>
                         <div class="absolute inset-0 bg-[rgba(0,0,0,0.4)]"></div>
                         <div class="absolute inset-0 flex flex-col justify-center text-center">
                             <h5 class="image-title text-white text-[20px] font-bold mb-5 font-noto-serif">60% Off | Bloom Plant</h5>
@@ -151,7 +153,7 @@
                         </div>
                     </div>
                     <div class="relative rounded-[14px] overflow-hidden">
-                        <img class="" src="assets/deal-ana.png" alt=""/>
+                        <img class="" src="assets/deal-ana.png" alt="ana plant"/>
                         <div class="absolute inset-0 bg-[rgba(0,0,0,0.4)]"></div>
                         <div class="absolute inset-0 flex flex-col justify-center text-center">
                             <h5 class="image-title text-white text-[20px] font-bold mb-5 font-noto-serif">30% Off | Ana  Plant</h5>
@@ -160,7 +162,7 @@
                     </div>
                 </div>
                 <div class="relative rounded-[22px] overflow-hidden">
-                    <img class="" src="assets/deal-zabo.png" alt=""/>
+                    <img src="assets/deal-zabo.png" alt="zabo plant"/>
                     <div class="absolute inset-0 bg-[rgba(0,0,0,0.4)]"></div>
                     <div class="absolute inset-0 flex flex-col justify-center text-center">
                         <h3 class="image-title text-white text-[40px] font-bold font-noto-serif">25% Off | Zabo Plant</h3>
@@ -172,7 +174,8 @@
 
           <!-- join section -->
            <section class="join relative overflow-hidden">
-                <img class="w-full max-h-[400px] object-cover" src="assets/news-letter-bg.png" alt="" />
+                <img class="w-full object-cover" src="assets/news-letter-bg.png" alt="" />
+                <div class="absolute inset-0 bg-[rgba(7, 51, 79, 0.4)]"></div>
                 <div class="absolute inset-0 flex flex-col justify-center items-center text-center px-4">
                     <h2 class="text-white text-[40px] font-bold mb-6 font-serif">Join the colorful Bunch</h2>
                     <form class="join-form flex flex-wrap justify-center">
@@ -206,11 +209,13 @@
                 <li class="gray-01 mb-8"><a href="#">Help Center</a></li>
             </ul>
         </div>
-        <div class="footer-column-4 flex gap-6">
-            <img class="w-9 h-9" src="assets/icon-linkedin.png" alt="">
-            <img class="w-9 h-9" src="assets/icon-twitter.png" alt="">
-            <img class="w-9 h-9" src="assets/icon-facebook.png" alt="">
-            <img class="w-9 h-9" src="assets/icon-youtube.png" alt="">
+        <div class="footer-column-4">
+            <ul class="flex gap-6">
+                <li><img class="w-9 h-9" src="assets/icon-linkedin.png" alt="linkedin icon"></li>
+                <li><img class="w-9 h-9" src="assets/icon-twitter.png" alt="twitter icon"></li>
+                <li><img class="w-9 h-9" src="assets/icon-facebook.png" alt="facebook icon"></li>
+                <li><img class="w-9 h-9" src="assets/icon-youtube.png" alt="youtube icon"></li>
+            </ul>
         </div>
     </footer>
 </body>
